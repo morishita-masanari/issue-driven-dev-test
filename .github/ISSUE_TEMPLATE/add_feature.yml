@@ -1,0 +1,35 @@
+name: 機能追加
+description: 客先の要望や自分が必要だと思う機能を実装
+title: "[Add feature]: "
+labels: ["enhancement"]
+assignees:
+  - octocat
+body:
+  - type: markdown
+    attributes:
+      value: |
+        自分がどのような機能を追加しようとしているか、文字に起こして周囲の人に可視化しよう！
+  - type: textarea
+    id: why_need_feature
+    attributes:
+      label: なぜその機能が必要？
+      description: 客先からの要望？事前の機能検討で必要だとされていたこと？など、なぜその機能が必要になったのですか？
+      placeholder: ex. 客先からジョグ動作でロボットの細かい位置を調整したいとの要望があった
+    validations:
+      required: false
+  - type: textarea
+    id: feature_detail
+    attributes:
+      label: どんな機能を追加？
+      description: UIのボタンを追加やオペレーションタスクの追加、プラットフォームの機能追加など、どのような機能を追加しますか？
+      placeholder: ex. UIのボタンを追加、オペレーションタスクの追加
+    validations:
+      required: true
+  - type: textarea
+    id: where_code
+    attributes:
+      label: どの付近の機能を触りそう？
+      description: プラットフォームのコアやオペレーションタスクなど事前に分かっていれば書くことで、コンフリクトしそうな場所を予想出来ます。
+      placeholder: ex. オペレーションタスク
+    validations:
+      required: false
