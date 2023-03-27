@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        自分がどのような機能を追加しようとしているか、文字に起こして周囲の人に可視化しよう！
+        自分がどのような機能を追加しようとしているか、文字に起こして周囲の人に可視化しましょう！
   - type: textarea
     id: why_need_feature
     attributes:
