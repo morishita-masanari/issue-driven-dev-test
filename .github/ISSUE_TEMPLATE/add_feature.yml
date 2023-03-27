@@ -1,9 +1,8 @@
-name: add_feature
+name: "機能追加"
 description: 客先の要望や自分が必要だと思う機能を実装
-title: "[Add feature]: "
+title: "[機能追加]: "
 labels: ["enhancement"]
-assignees:
-  - octocat
+
 body:
   - type: markdown
     attributes:
@@ -31,5 +30,13 @@ body:
       label: どの付近の機能を触りそう？
       description: プラットフォームのコアやオペレーションタスクなど事前に分かっていれば書くことで、コンフリクトしそうな場所を予想出来ます。
       placeholder: ex. オペレーションタスク
+    validations:
+      required: false
+  - type: textarea
+    id: remarks
+    attributes:
+      label: 備考欄
+      description: 他に何か事前に共有したいことや、自分の中で気になっていることなど
+      placeholder: ex. 機能追加する上で必要な情報や、qittaやブログなど参考になりそうなページ
     validations:
       required: false
